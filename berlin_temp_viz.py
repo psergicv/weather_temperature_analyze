@@ -30,7 +30,7 @@ plt.fill_between(dates, high_temps, low_temps, facecolor='green', alpha=0.1)
 plt.title("Daily high & low temperatures - May, 2020", fontsize=24)
 plt.xlabel('', fontsize=16)
 fig.autofmt_xdate()
-plt.ylabel("Temperature (F)", fontsize=16)
+plt.ylabel("Temperature (Celsius)", fontsize=16)
 plt.tick_params(axis='both', which='major', labelsize=16)
 
 plt.show()
